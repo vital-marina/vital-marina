@@ -1,0 +1,14 @@
+{
+"fields": {
+"customfield_11340": {
+            "self": "https://creditas.atlassian.net/rest/api/3/customFieldOption/{{triggerIssue.id}}",
+            "value": "{{triggerIssue.fields.customfield_11340.value}}",
+            "id": "{{triggerIssue.fields.customfield_11340.id}}",
+            "child": {
+                "self": "https://creditas.atlassian.net/rest/api/3/customFieldOption/{{triggerIssue.id}}",
+                "value": "{{triggerIssue.fields.customfield_11340.child.value}}",
+                "id": "{{triggerIssue.fields.customfield_11340.child.id}}"
+            }
+}
+}
+}
